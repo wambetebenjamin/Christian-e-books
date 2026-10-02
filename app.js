@@ -25,11 +25,9 @@ if (localStorage.getItem('berean-theme') === 'night') {
 }
 
 downloadBtn.addEventListener('click', () => {
+  toast.textContent = 'Your PDF download has started.';
   toast.classList.add('show');
-  setTimeout(() => {
-    toast.classList.remove('show');
-    window.print();
-  }, 700);
+  setTimeout(() => toast.classList.remove('show'), 2200);
 });
 
 document.querySelector('#year').textContent = new Date().getFullYear();
