@@ -8,6 +8,8 @@ A browser-based, print-ready Christian youth ebook for **CHRISCO Youth Aflame**.
 python3 -m http.server 8080 --bind 0.0.0.0
 ```
 
+Open [`will-of-god-booklet.html`](will-of-god-booklet.html) for the interactive booklet. It includes clickable navigation, reading-theme toggle, prayer check-ins, a reflection area saved in the browser, and print-to-PDF support.
+
 Open `http://localhost:8080` and select **Download PDF**. A ready-to-download edition is also included as [`The-Balanced-Berean-CHRISCO-Youth-Aflame.pdf`](The-Balanced-Berean-CHRISCO-Youth-Aflame.pdf).
 
 ## Features
